@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    height: 60%;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 10%;
+  }
+  
+  input {
+    height: 30px;
+    width: 70%;
+    margin: 10px;
+    font-size: 24px;
+  }
